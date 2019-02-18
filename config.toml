@@ -1,0 +1,81 @@
+baseURL = "http://example.org/"
+languageCode = "zh-cn"
+title = "仪器中心"
+theme = "phlat"
+
+[permalinks]
+    post                = "/:year/:month/:slug/"
+    page                = "/:slug/"
+
+[taxonomies]
+    tag                 = "tags"
+    category            = "categories"
+
+# The header menu will appear as an inline-list at the top right of the page
+[[menu.header]]
+    name                = "首页"
+    weight              = 1
+    url                 = "/"
+[[menu.header]]
+    name                = "中心概况"
+    weight              = 3
+    url                 = "/about/"
+[[menu.header]]
+    name                = "新闻公告"
+    weight              = 3
+    url                 = "/post/"
+[[menu.header]]
+    name                = "对外服务"
+    weight              = 3
+    url                 = "/services/"
+[[menu.header]]
+    name                = "资料下载"
+    weight              = 3
+    url                 = "/resources/"
+[[menu.header]]
+    name                = "联系我们"
+    weight              = 5
+    url                 = "/contract/"
+
+# The footer menu will appear as an inline-list at the bottom left of the footer found at the bottom of the screen
+[[menu.footer]]
+    name                = "Privacy Policy"
+    weight              = 1
+    url                 = "/privacy-policy/"
+
+[params]
+    keywords            = ["default", "keywords", "if", "no", "front", "matter"]
+    description         = "A description that will appear as a default if front matter does not exist"
+    google_analytics    = "UA-XXXXX-YY"
+    google_adsense      = "ca-pub-XXXXXX"
+    disqus              = "shortname"
+    google_webmaster    = ""
+    bing_webmaster      = ""
+    alexa               = ""
+    favicon             = ""
+
+# Social media icons and links that appear in the footer
+[social]
+    twitter             = "https://www.twitter.com/NAME_HERE"
+    googleplus          = "https://plus.google.com/NAME_HERE"
+    linkedin            = "https://www.linkedin.com/in/NAME_HERE"
+    youtube             = "https://www.youtube.com/users/NAME_HERE"
+    paypal              = "https://paypal.me/NAME_HERE"
+    instagram           = ""
+    reddit              = ""
+    email               = ""
+    pinterest           = ""
+    wordpress           = ""
+
+[[menu.links]]
+  name = "厦门大学"
+  url  = "http://www.xmu.edu.cn"
+[[menu.links]]
+  name = "厦门大学化学与化工学院"
+  url  = "http://chem.xmu.edu.cn"
+[[menu.links]]
+  name = "厦门大学实验办"
+  url  = "https://syb.xmu.edu.cn"
+[[menu.links]]
+  name = "厦门大学分析测试中心"
+  url  = "https://atc.xmu.edu.cn"
