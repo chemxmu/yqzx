@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "zh-cn"
 title = "仪器中心"
 theme = "phlat"
@@ -18,14 +18,18 @@ theme = "phlat"
     url                 = "/"
 [[menu.header]]
     name                = "中心概况"
-    weight              = 3
+    weight              = 2
     url                 = "/about/"
 [[menu.header]]
-    name                = "新闻公告"
+    name                = "仪器设备"
     weight              = 3
-    url                 = "/post/"
+    url                 = "/instr/"
 [[menu.header]]
-    name                = "对外服务"
+    name                = "中心事务"
+    weight              = 3
+    url                 = "/affair/"
+[[menu.header]]
+    name                = "校外服务"
     weight              = 3
     url                 = "/services/"
 [[menu.header]]
@@ -67,15 +71,4 @@ theme = "phlat"
     pinterest           = ""
     wordpress           = ""
 
-[[menu.links]]
-  name = "厦门大学"
-  url  = "http://www.xmu.edu.cn"
-[[menu.links]]
-  name = "厦门大学化学与化工学院"
-  url  = "http://chem.xmu.edu.cn"
-[[menu.links]]
-  name = "厦门大学实验办"
-  url  = "https://syb.xmu.edu.cn"
-[[menu.links]]
-  name = "厦门大学分析测试中心"
-  url  = "https://atc.xmu.edu.cn"
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "head.html" . }}
+    <body>
+        {{ partial "navigation/navigation.html" . }}
+        <div id="top" class="container">
+            <div class="row" id="carousel">
+              {{ partial "widgets/carousel.html" . }}
+            </div>
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                </div>
+                <div class="col-md-4">
+                    {{ partial "widgets/sidebar/search.html" . }}
+                </div>
+            </div>
+            <div class="row">
+              {{ partial "widgets/links.html" . }}
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+        {{ partial "foot.html" . }}
+    </body>
+</html>

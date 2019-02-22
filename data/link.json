@@ -1,0 +1,32 @@
+{
+  "xmu": {
+    "weight"  : 1,
+    "name"    : "厦门大学",
+    "url"     : "http://www.xmu.edu.cn",
+    "picture" : "images/xmu.jpg"
+  },
+  "chem":{
+    "weight"  : 2,
+    "name"    : "厦门大学化学与化工学院",
+    "url"     : "http://chem.xmu.edu.cn",
+    "picture" : "images/chem.jpg"
+  },
+  "syb":{
+    "weight"  : 3,
+    "name"    : "厦门大学实验办",
+    "url"     : "http://syb.xmu.edu.cn",
+    "picture" : "images/syb.jpg"
+  },
+  "atc":{
+    "weight"  : 4,
+    "name"    : "厦门大学分析测试中心",
+    "url"     : "http://atc.xmu.edu.cn",
+    "picture" : "images/atc.jpg"
+  },
+  "life":{
+    "weight"  : 5,
+    "name"    : "厦门大学生物医疗实验平台",
+    "url"     : "http://lifefacility.xmu.edu.cn",
+    "picture" : "images/life.jpg"
+  }
+}
