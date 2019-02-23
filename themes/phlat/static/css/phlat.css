@@ -5,7 +5,7 @@ body {
 .logobar {
     background: url(/images/header-logo-light.png);
     background-repeat: no-repeat;
-    background-position: 980px -115px;
+    background-position: 90% 18%;
 }
 
 /*
@@ -241,9 +241,13 @@ body {
 
 footer {
     background-color: #dddddd;
+    border-top: 1px solid #d3d3d3;
     margin-top: 20px;
     padding-top: 15px;
     padding-bottom: 0px;
+    background-image: url(/images/header-logo-light.png);
+    background-repeat: no-repeat;
+    background-position: 90% 82%;
 }
 
 footer .container .row:not(:last-of-type) {
