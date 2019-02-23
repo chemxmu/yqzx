@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "head.html" . }}
+    <body>
+        {{ partial "navigation/navigation.html" . }}
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                  <div class="row" id="carousel">
+                    {{ partial "widgets/carousel.html" . }}
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                        <div class="content-card">
+                          <h3><span class="glyphicon glyphicon-list"></span>新闻公告<a href="/post/"><span class="pull-right glyphicon glyphicon-plus-sign"></span></a></h3>
+                          <ul class="list-unstyled posts-recent">
+                          {{ range first 5 (where .Data.Pages "Type" "post" ) }}
+                            <li><i class="fa fa-paw text-primary">{{ .Date.Format "01-02" }}</i><a href="{{ .Permalink }}"><span>{{ .Title }}</span></a></li>
+                          {{ end }}
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="content-card">
+                          <h3><span class="glyphicon glyphicon-list"></span>新闻公告<a href=""><span class="pull-right glyphicon glyphicon-plus-sign"></span></a></h3>
+                          <ul class="list-unstyled posts-recent">
+                          {{ range $pages := first 5 (where .Data.Pages "Type" "post" ) }}
+                            <li><i class="fa fa-paw text-primary">{{ $pages.Date.Format "01-02" }}</i><a href="{{ $pages.Permalink }}"><span>{{ $pages.Title }}</span></a></li>
+                          {{ end }}
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    {{ partial "widgets/sidebar/search.html" . }}
+                </div>
+            </div>
+            <div class="row">
+              {{ partial "widgets/links.html" . }}
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+        {{ partial "foot.html" . }}
+    </body>
+</html>
