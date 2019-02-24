@@ -24,18 +24,18 @@ body {
   font-weight: 700;
 }
 
-.nav>li:hover {
+.navbar .nav>li:hover {
   background-color: #427bc1;
 }
 
-.nav>li {
+.navbar .nav>li {
     border-top: 8px solid transparent;
     font-weight: 700;
     padding: 0 20px;
     font-size: 18px;
 }
 
-.nav>li.active {
+.navbar .nav>li.active {
   background-color: #427bc1;
 }
 
@@ -359,4 +359,15 @@ pre code {
 .affair-card .card-footer {
   background-color: #ddd;
   border-radius: 0 0 6px 6px; padding: 4px;
+}
+
+.instr-sidebar .nav>li>a {
+  display: block;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #363636;
+}
+.instr-sidebar .nav>li>a:hover {
+  background-color: #427bc1;
 }

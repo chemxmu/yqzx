@@ -1,5 +1,7 @@
-<div class="card">
-  {{ range where .Data.Pages "Section" "instr" }}
-  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-  {{ end }}
-</div>
+<nav class="instr-sidebar content-card">
+  <ul class="nav nav-pills nav-stacked">
+    {{ range where .Site.Pages "Section" "instr" }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</nav>

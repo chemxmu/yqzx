@@ -5,11 +5,11 @@
         {{ partial "navigation/navigation.html" . }}
         <div id="top" class="container">
             <div class="row" id="content-main">
-              <div class="col-md-4">
+              <div class="col-md-2">
                 {{ .Render "sidebar" }}
               </div> <!--col-md-4-->
-              <div class="col-md-8">
-                {{ .Render "list.main" }}
+              <div class="col-md-10">
+                {{ .Render "single.content" }}
               </div> <!--col-md-8-->
             </div>
         </div>
