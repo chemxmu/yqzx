@@ -1,0 +1,5 @@
+<div class="card">
+  {{ range where .Data.Pages "Section" "instr" }}
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+  {{ end }}
+</div>
