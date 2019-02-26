@@ -12,9 +12,9 @@
                   <div class="row">
                       <div class="col-md-6">
                         <div class="content-card">
-                          <h3><span class="glyphicon glyphicon-list"></span>新闻公告<a href="/post/"><span class="pull-right glyphicon glyphicon-plus-sign"></span></a></h3>
+                          <h3><span class="glyphicon glyphicon-list"></span>新闻公告<a href="/news/"><span class="pull-right glyphicon glyphicon-plus-sign"></span></a></h3>
                           <ul class="list-unstyled posts-recent">
-                          {{ range first 5 (where .Data.Pages "Type" "post" ) }}
+                          {{ range first 5 (where .Site.Pages "Type" "news") }}
                             <li><i class="fa fa-paw text-primary">{{ .Date.Format "01-02" }}</i><a href="{{ .Permalink }}"><span>{{ .Title }}</span></a></li>
                           {{ end }}
                           </ul>
@@ -22,10 +22,10 @@
                       </div>
                       <div class="col-md-6">
                         <div class="content-card">
-                          <h3><span class="glyphicon glyphicon-list"></span>新闻公告<a href=""><span class="pull-right glyphicon glyphicon-plus-sign"></span></a></h3>
+                          <h3><span class="glyphicon glyphicon-list"></span>培训通知<a href="/trains/"><span class="pull-right glyphicon glyphicon-plus-sign"></span></a></h3>
                           <ul class="list-unstyled posts-recent">
-                          {{ range $pages := first 5 (where .Data.Pages "Type" "post" ) }}
-                            <li><i class="fa fa-paw text-primary">{{ $pages.Date.Format "01-02" }}</i><a href="{{ $pages.Permalink }}"><span>{{ $pages.Title }}</span></a></li>
+                          {{ range first 5 (where .Site.Pages "Type" "trains") }}
+                            <li><i class="fa fa-paw text-primary">{{ .Date.Format "01-02" }}</i><a href="{{ .Permalink }}"><span>{{ .Title }}</span></a></li>
                           {{ end }}
                           </ul>
                         </div>

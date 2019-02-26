@@ -6,7 +6,7 @@
         <div id="top" class="container">
             <div class="row" id="content-main">
                 <div class="col-md-12">
-                    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+                    {{ $paginator := .Paginate .Data.Pages }}
                     {{ range $paginator.Pages }}
                         <div class="row">
                             <div class="col-md-12 content-card">

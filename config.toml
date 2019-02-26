@@ -1,10 +1,10 @@
 baseURL = ""
 languageCode = "zh-cn"
 title = "仪器中心"
-theme = "phlat"
 
 [permalinks]
-    post                = "/:year/:month/:slug/"
+    news                = "/:year/:month/:slug/"
+    trains              = "/:year/:month/:slug/"
     page                = "/:slug/"
 
 [taxonomies]
@@ -70,5 +70,3 @@ theme = "phlat"
     email               = ""
     pinterest           = ""
     wordpress           = ""
-
-
