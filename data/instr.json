@@ -1,0 +1,45 @@
+{
+  "nmr": {
+    "catagory": "磁共振谱仪",
+    "lists": [
+      {
+        "name": "500MHz核磁共振谱仪（高场核磁）",
+        "link": "/instrument/detail-65605.html",
+        "img" : "/upload/tinstrument/1495531523.jpg",
+        "pos": ""
+      },
+      {
+        "name": "600MHz核磁共振谱仪（高场核磁）",
+        "link": "/instrument/detail-65603.html",
+        "img" : "/upload/tinstrument/1495529084.jpg",
+        "pos": ""
+      },
+      {
+        "name": "850MHz核磁共振谱仪（高场核磁）",
+        "link": "/instrument/detail-65602.html",
+        "img" : "/upload/tinstrument/1528693810.jpg",
+        "pos": ""
+      }
+
+    ]
+  },
+  "ms": {
+    "catagory": "质谱",
+    "lists": [
+      {
+        "name": "磁共振谱仪（高场核磁）",
+        "link": "/instrument/detail-65605.html",
+        "img" : "/upload/tinstrument/1495529084.jpg",
+        "pos": ""
+      },
+      {
+        "name": "振谱仪（高场核磁）",
+        "link": "/instrument/detail-65605.html",
+        "img" : "/upload/tinstrument/1495529084.jpg",
+        "pos": ""
+      }
+    ]
+
+  }
+
+}

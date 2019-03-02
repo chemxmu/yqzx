@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-12 content-card">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+
+        {{ range .Site.Data.instr }}
+          <h3>{{ .catagory }}</h3>
+          <div class="row">
+            {{ range .lists }}
+              <div class="col-md-3">
+                <div class="thumbnail">
+                  <a href="{{$.Site.Params.instr_link}}{{.link}}" target="_blank">
+                    <img src="{{$.Site.Params.instr_link}}{{.img}}" alt="{{.name}}" style="width:100%">
+                    <div class="caption">
+                      <h5>{{.name}}</h5>
+                      <small>位置：{{.pos}}</small>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+        <ul class="list-inline meta pull-right">
+            <li><i class="fa fa-calendar"></i>{{ .Date.Format "2006-02-01" }}</li>
+            <li><i class="fa fa-user"></i>{{ .Params.author }}</li>
+        </ul>
+    </div>
+</div>

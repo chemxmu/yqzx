@@ -3,13 +3,13 @@ languageCode = "zh-cn"
 title = "仪器中心"
 
 [permalinks]
-    news                = "/:year/:month/:slug/"
-    trains              = "/:year/:month/:slug/"
+    post                = "/:year/:month/:slug/"
     page                = "/:slug/"
 
 [taxonomies]
     tag                 = "tags"
     category            = "categories"
+    purpose             = "purposes"
 
 # The header menu will appear as an inline-list at the top right of the page
 [[menu.header]]
@@ -48,6 +48,7 @@ title = "仪器中心"
     url                 = "/privacy-policy/"
 
 [params]
+    instr_link          = "http://121.192.177.40"
     keywords            = ["default", "keywords", "if", "no", "front", "matter"]
     description         = "A description that will appear as a default if front matter does not exist"
     google_analytics    = "UA-XXXXX-YY"

@@ -3,6 +3,7 @@ title: "Second"
 date: 2019-01-28T09:40:58+08:00
 draft: true
 carousel: true
+purposes: ["news"]
 image: /images/201901181559151186.jpg
 ---
 

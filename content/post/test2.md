@@ -1,7 +1,8 @@
 ---
 title: "关于LCQ液相色质谱联用仪恢复开放使用的通知"
-date: 2019-01-27T10:37:07+08:00
+date: 2009-10-14T10:37:07+08:00
 author: 于腊佳
+purposes: ["news", "notice"]
 draft: true
 carousel: false
 ---

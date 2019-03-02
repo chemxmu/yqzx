@@ -1,7 +1,8 @@
 ---
 title: "液体核磁共振谱仪操作培训通知"
-date: 2019-01-27T10:37:14+08:00
+date: 2009-10-14T10:37:14+08:00
 author: 欧阳捷
+purposes: ["trains"]
 draft: true
 carousel: false
 ---

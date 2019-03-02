@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "head.html" . }}
+    <body>
+        {{ partial "navigation/navigation.html" . }}
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+              <div class="col-md-2">
+                {{ .Render "sidebar" }}
+              </div> <!--col-md-4-->
+              <div class="col-md-10">
+                {{ .Render "showme.content" }}
+              </div> <!--col-md-8-->
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+        {{ partial "foot.html" . }}
+    </body>
+</html>
