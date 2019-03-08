@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-11 col-md-offset-1 card">
-      <h3><a href="http://121.192.177.40/" target="_blank"> <img src="/images/yuyue.png" width=100%> </a></h3>
-      <h3><a href="http://121.192.177.40/" target="_blank"> <img src="/images/jiaofei.png" width=100%> </a></h3>
-      <h3><a href="http://210.34.14.46/benstat/" target="_blank"> <img src="/images/gzyq.png" width=100%> </a></h3>
+      {{ range .Site.Menus.sider }}
+      <h3><a href="{{ .URL }}" target="_blank">{{ .Pre }}</a></h3>
+      {{ end }}
     </div>
 </div>

@@ -3,7 +3,7 @@ body {
 }
 
 .logobar {
-    background: url(/images/header-logo-light.png);
+/*    background: url(/images/header-logo-light.png); */
     background-repeat: no-repeat;
     background-position: 90% 18%;
 }
@@ -245,7 +245,7 @@ footer {
     margin-top: 20px;
     padding-top: 15px;
     padding-bottom: 0px;
-    background-image: url(/images/header-logo-light.png);
+/*    background-image: url(/images/header-logo-light.png); */
     background-repeat: no-repeat;
     background-position: 90% 82%;
 }

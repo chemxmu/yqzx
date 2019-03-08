@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://chemxmu.github.io/yqzx-web/"
 languageCode = "zh-cn"
 title = "仪器中心"
 
@@ -46,6 +46,23 @@ title = "仪器中心"
     name                = "Privacy Policy"
     weight              = 1
     url                 = "/privacy-policy/"
+
+[[menu.sider]]
+  name = "仪器预约系统"
+  weight = 1
+  url = "http://121.192.177.40/"
+  pre = "<img src='images/yuyue.png' width=100%>"
+
+[[menu.sider]]
+  name = "我要缴费"
+  weight = 2
+  url = "/jiaofei/"
+  pre = "<img src='images/jiaofei.png' width=100%>"
+[[menu.sider]]
+  name = "贵重仪器统计与查询"
+  weight = 3
+  url = "http://210.34.14.46/benstat/"
+  pre = "<img src='images/gzyq.png' width=100%>"
 
 [params]
     instr_link          = "http://121.192.177.40"

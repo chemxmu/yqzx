@@ -1,0 +1,15 @@
+<nav class="instr-sidebar content-card">
+  <ul class="nav nav-pills nav-stacked">
+    {{ if .IsPage }}
+      <li><a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a></li>
+      {{ range .Parent.Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    {{ else }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ range .Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>

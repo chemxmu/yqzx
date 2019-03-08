@@ -8,7 +8,7 @@
   <div class="carousel-inner">
     {{ range $elem_index, $elem_val := $carousels }}
     <div class="item {{ if eq $elem_index 0 }}active{{ end }}">
-      <a href="{{ .RelPermalink }}"><img class="d-block w-100" src="{{ .Params.image }}" alt="{{ .Title }}"></a>
+      <a href="{{ .RelPermalink }}"><img class="d-block w-100" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}"></a>
 <!--      <div class="carousel-caption d-none d-md-block">
         <a href="{{ .RelPermalink }}"><h5>{{ .Title }}</h5></a>
         <p>{{ .Summary }}</p>
