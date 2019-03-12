@@ -5,7 +5,7 @@
         {{ partial "navigation/navigation.html" . }}
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
+                <div class="col-md-9">
                   <div class="row" id="carousel">
                     {{ partial "widgets/carousel.html" . }}
                   </div>
@@ -15,7 +15,7 @@
                           <h3><span class="glyphicon glyphicon-list"></span>新闻公告<a href="purposes/news/"><span class="pull-right glyphicon glyphicon-plus-sign"></span></a></h3>
                           <ul class="list-unstyled posts-recent">
                           {{ range first 5 .Site.Taxonomies.purposes.news.Pages }}
-                            <li><i class="fa fa-paw text-primary">{{ .Date.Format "01-02" }}</i><a href="{{ .Permalink }}"><span>{{ .Title }}</span></a></li>
+                            <li><i class="fa fa-paw text-primary">{{ .Date.Format "06-01-02" }}</i><a href="{{ .Permalink }}"><span>{{ .Title }}</span></a></li>
                           {{ end }}
                           </ul>
                         </div>
@@ -25,14 +25,14 @@
                           <h3><span class="glyphicon glyphicon-list"></span>培训通知<a href="purposes/trains/"><span class="pull-right glyphicon glyphicon-plus-sign"></span></a></h3>
                           <ul class="list-unstyled posts-recent">
                           {{ range first 5 .Site.Taxonomies.purposes.trains.Pages }}
-                            <li><i class="fa fa-paw text-primary">{{ .Date.Format "01-02" }}</i><a href="{{ .Permalink }}"><span>{{ .Title }}</span></a></li>
+                            <li><i class="fa fa-paw text-primary">{{ .Date.Format "06-01-02" }}</i><a href="{{ .Permalink }}"><span>{{ .Title }}</span></a></li>
                           {{ end }}
                           </ul>
                         </div>
                       </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     {{ partial "widgets/sidebar/search.html" . }}
                 </div>
             </div>
