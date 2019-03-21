@@ -1,0 +1,29 @@
+
+<div class="container">
+{{ $chief:=$.Site.Data.staff.chief }}
+<p>中心主任： <a href="{{$chief.url}}">{{ $chief.name }}</a></p>
+<p>副主任： {{ range $.Site.Data.staff.cochief }} {{ if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{ .name }}{{end}}{{ end }} </p>
+</div>
+
+<div class="container">
+<table class="table">
+  <thead>
+    <tr>
+      <th>姓名</th>
+      <th>岗位</th>
+      <th>电话</th>
+      <th>邮箱</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $.Site.Data.staff.staff }}
+      <tr>
+        <td>{{ .name }}</td>
+        <td>{{ .position }}</td>
+        <td>{{ .phone }}</td>
+        <td>{{ .email }}</td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>
+</div>

@@ -1,4 +1,4 @@
-baseURL = "https://chemxmu.github.io/yqzx-web/"
+baseURL = "http://yqzx.xmu.edu.cn/"
 languageCode = "zh-cn"
 title = "仪器中心"
 
@@ -25,10 +25,6 @@ title = "仪器中心"
     weight              = 3
     url                 = "/instr/"
 [[menu.header]]
-    name                = "中心事务"
-    weight              = 3
-    url                 = "/affair/"
-[[menu.header]]
     name                = "校外服务"
     weight              = 3
     url                 = "/services/"
@@ -36,6 +32,10 @@ title = "仪器中心"
     name                = "资料下载"
     weight              = 3
     url                 = "/resources/"
+[[menu.header]]
+    name                = "党建之窗"
+    weight              = 4
+    url                 = "/party/"
 [[menu.header]]
     name                = "联系我们"
     weight              = 5

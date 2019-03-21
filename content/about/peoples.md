@@ -6,17 +6,4 @@ draft: false
 type: "column"
 ---
 
-中心主任：
-副主任：
-
-
- 姓名 | 岗位 | 电话 | 邮箱
-------|------|------| -----
- 张三 | 核磁组| 1830000000| yqzx@xmu.edu.cn
- 张三 | 核磁组| 1830000000| yqzx@xmu.edu.cn
- 张三 | 核磁组| 1830000000| yqzx@xmu.edu.cn
- 张三 | 核磁组| 1830000000| yqzx@xmu.edu.cn
- 李四 | 电镜组| 1830000000| yqzx@xmu.edu.cn
- 李四 | 电镜组| 1830000000| yqzx@xmu.edu.cn
- 李四 | 电镜组| 1830000000| yqzx@xmu.edu.cn
- 李四 | 电镜组| 1830000000| yqzx@xmu.edu.cn
+{{< stafflist >}}
