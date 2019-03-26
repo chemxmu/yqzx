@@ -31,7 +31,7 @@
     "name"    : "林志为",
     "position": "副主任",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922188712",
     "email" : "linzhiwei@xmu.edu.cn"
   }],
   "staff": [
@@ -40,7 +40,7 @@
     "name"    : "欧阳捷",
     "position": "核磁组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922183046",
     "email" : "ouyangjie@xmu.edu.cn"
   },
   {
@@ -48,7 +48,7 @@
     "name"    : "冯柳宾",
     "position": "核磁组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922186874",
     "email" : "tonyfeng@xmu.edu.cn"
   },
   {
@@ -56,7 +56,7 @@
     "name"    : "余深水",
     "position": "核磁组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922183548",
     "email" : "yushenshui@xmu.edu.cn"
   },
   {
@@ -64,7 +64,7 @@
     "name"    : "姚宏伟",
     "position": "核磁组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922186874",
     "email" : "hwyao@xmu.edu.cn"
   },
   {
@@ -72,7 +72,7 @@
     "name"    : "林志为",
     "position": "质谱组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922188712",
     "email" : "zwlin123@xmu.edu.cn"
   },
   {
@@ -88,39 +88,39 @@
     "name"    : "于腊佳",
     "position": "质谱组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922188713",
     "email" : "ljyu@xmu.edu.cn"
   },
   {
     "weight"  : 3,
     "name"    : "徐富春",
-    "position": "电镜组",
+    "position": "能谱组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922184829",
     "email" : "fchxu@xmu.edu.cn"
+  },
+  {
+    "weight"  : 4,
+    "name"    : "汤丁亮",
+    "position": "能谱组",
+    "picture" : "images/xmu.jpg",
+    "phone" : "05922184829",
+    "email" : "tdl69@xmu.edu.cn"
   },
   {
     "weight"  : 3,
     "name"    : "洪麒明",
     "position": "电镜组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922181508",
     "email" : "qmhong@xmu.edu.cn"
-  },
-  {
-    "weight"  : 4,
-    "name"    : "汤丁亮",
-    "position": "电镜组",
-    "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
-    "email" : "tdl69@xmu.edu.cn"
   },
   {
     "weight"  : 4,
     "name"    : "杨晓东",
     "position": "电镜组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922188712",
     "email" : "yxd01@xmu.edu.cn"
   },
   {
@@ -128,7 +128,7 @@
     "name"    : "翟和生",
     "position": "电镜组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922186153",
     "email" : "hszhai@xmu.edu.cn"
   },
   {
@@ -136,7 +136,7 @@
     "name"    : "许斌斌",
     "position": "电镜组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922181508",
     "email" : "xubinbin@xmu.edu.cn"
   },
   {
@@ -144,7 +144,7 @@
     "name"    : "吴元菲",
     "position": "电镜组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922188713",
     "email" : "yfwu@xmu.edu.cn"
   },
   {
@@ -152,7 +152,7 @@
     "name"    : "魏赞斌",
     "position": "XRD组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922185667",
     "email" : "zbwei@xmu.edu.cn"
   },
   {
@@ -160,7 +160,7 @@
     "name"    : "陈高生",
     "position": "XRD组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "0592xxxxxxx",
     "email" : "@xmu.edu.cn"
   },
   {
@@ -168,7 +168,7 @@
     "name"    : "时海燕",
     "position": "SQUID/超导量子干涉磁强计",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922187691",
     "email" : "hyshi@xmu.edu.cn"
   },
   {
@@ -176,7 +176,7 @@
     "name"    : "赖注治",
     "position": "光谱组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922183548",
     "email" : "zzlai@xmu.edu.cn"
   },
   {
@@ -184,7 +184,7 @@
     "name"    : "陈韵晴",
     "position": "光谱组",
     "picture" : "images/xmu.jpg",
-    "phone" : "05922196974",
+    "phone" : "05922183549",
     "email" : "yunqingchen@xmu.edu.cn"
   },
   {

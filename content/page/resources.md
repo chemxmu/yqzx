@@ -5,4 +5,4 @@ draft: true
 slug: "resources"
 ---
 
-还在建设中...
+{{< dir path="/static/res" pathURL="/res" >}}

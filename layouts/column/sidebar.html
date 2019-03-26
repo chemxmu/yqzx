@@ -3,12 +3,12 @@
     {{ if .IsPage }}
       <li><a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a></li>
       {{ range .Parent.Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a> </li>
       {{ end }}
     {{ else }}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
       {{ range .Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a> </li>
       {{ end }}
     {{ end }}
   </ul>
